@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   Actions,
+  ActionConst,
   DefaultRenderer,
   Modal,
   NavBar,
@@ -9,6 +10,7 @@ import {
   Scene,
   Switch,
   TabBar,
+  TabbedView,
   getInitialState,
   Util,
 } from 'react-native-router-flux';
@@ -19,6 +21,7 @@ function Router(props){
 }
 export {
   Actions,
+  ActionConst,
   DefaultRenderer,
   Modal,
   NavBar,
@@ -27,6 +30,7 @@ export {
   Scene,
   Switch,
   TabBar,
+  TabbedView,
   getInitialState,
   Util,
 };
